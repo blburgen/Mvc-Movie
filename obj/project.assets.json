@@ -6513,11 +6513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burge\\dev\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "c:\\Users\\burge\\dev\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "C:\\Users\\burge\\dev\\MvcMovie\\MvcMovie.csproj",
+      "projectPath": "c:\\Users\\burge\\dev\\MvcMovie\\MvcMovie.csproj",
       "packagesPath": "C:\\Users\\burge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\burge\\dev\\MvcMovie\\obj\\",
+      "outputPath": "c:\\Users\\burge\\dev\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
