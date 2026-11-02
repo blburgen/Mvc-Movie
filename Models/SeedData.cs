@@ -25,77 +25,88 @@ public static class SeedData
                     Title = "When Harry Met Sally",
                     ReleaseDate = DateTime.Parse("1989-2-12"),
                     Genre = "Romantic Comedy",
-                    Price = 7.99M
+                    Price = 7.99M,
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "Ghostbusters ",
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
-                    Price = 8.99M
+                    Price = 8.99M,
+                    Rating = "PG"
                 },
                 new Movie
                 {
                     Title = "Ghostbusters 2",
                     ReleaseDate = DateTime.Parse("1986-2-23"),
                     Genre = "Comedy",
-                    Price = 9.99M
+                    Price = 9.99M,
+                    Rating = "PG"
                 },
                 new Movie
                 {
                     Title = "Rio Bravo",
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
-                    Price = 3.99M
+                    Price = 3.99M,
+                    Rating = "PG"
                 },
                 new Movie
                 {
                     Title = "Dracula Dead and Loving it",
                     ReleaseDate = DateTime.Parse("1995-12-22"),
                     Genre = "Comedy",
-                    Price = 9.50M
+                    Price = 9.50M,
+                    Rating = "PG-13"
                 },
                 new Movie
                 {
                     Title = "The Cheap Detective",
                     ReleaseDate = DateTime.Parse("1978-6-23"),
                     Genre = "Comedy",
-                    Price = 14.99M
+                    Price = 14.99M,
+                    Rating = "PG"
                 },
                 new Movie
                 {
                     Title = "Pirates of the Caribbean",
                     ReleaseDate = DateTime.Parse("2003-7-9"),
                     Genre = "Adventure",
-                    Price = 5.53M
+                    Price = 5.53M,
+                    Rating = "PG-13"
                 },
                 new Movie
                 {
                     Title = "Knives Out",
                     ReleaseDate = DateTime.Parse("2019-11-27"),
                     Genre = "Mystery",
-                    Price = 15.99M
+                    Price = 15.99M,
+                    Rating = "PG-13"
                 },
                 new Movie
                 {
                     Title = "Star Wars: Episode IV – A New Hope",
                     ReleaseDate = DateTime.Parse("1977-5-25"),
                     Genre = "Sci-fi",
-                    Price = 9.993M
+                    Price = 9.993M,
+                    Rating = "PG"
                 },
                 new Movie
                 {
                     Title = "How to Train Your Dragon",
                     ReleaseDate = DateTime.Parse("2010-3-21"),
                     Genre = "Adventure",
-                    Price = 5.53M
+                    Price = 5.53M,
+                    Rating = "PG"
                 },
                 new Movie
                 {
                     Title = "Zootopia",
                     ReleaseDate = DateTime.Parse("2016-3-4"),
                     Genre = "Comedy",
-                    Price = 13.99M
+                    Price = 13.99M,
+                    Rating = "PG"
                 }
             );
             context.SaveChanges();
